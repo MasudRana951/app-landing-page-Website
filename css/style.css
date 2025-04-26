@@ -1,0 +1,251 @@
+/* all common css start here */
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li,ol{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+#butn{
+    border: 1px solid rgb(245, 2, 2);
+    border-radius: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: blueviolet;
+    color: white;
+}
+#butn:hover{
+    color: blue;
+}
+.common-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.common-heading h4{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.common-heading p{
+    font-size: 16px;
+    padding: 0 250px;
+    text-align: center;
+}
+/* all common css end here */
+/* nav section start here */
+nav{
+    padding: 20px;
+}
+/* nav .container .navigation-items-section .navigation-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} */
+nav .navigation-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+nav .navigation-items .logo{
+    font-size: 25px;
+    color: blue;
+}
+nav .navigation-items .nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 7px;
+}
+nav .navigation-items .nav-items ul li{
+    text-align: center;
+}
+nav .navigation-items .nav-items ul li a{
+    color: blueviolet;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+nav .navigation-items .nav-items ul li a:hover{
+    color: blue;
+}
+/* nav section end here */
+/* banner start */
+.banner{
+    background-image: url(../images/real\ banner\ bg\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.banner .banner-section .left-section .banner-info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.banner .banner-section .left-section .banner-info-text h1{
+    /* font-size: 26px; */
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.banner .banner-section .left-section .banner-info-text .banner-text{
+    font-size: 16px;
+    color: #d6d6d6;
+    line-height: 28px;
+    word-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.banner .banner-section .left-section .banner-info-text  .common-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+.banner .banner-section .left-section .banner-info-text  .common-button a{
+    /* background: rgb(84, 245, 9); */
+}
+/* banner end */
+/* option start */
+.options{
+    margin: 50px 0;
+}
+.options .option-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.options .option-items .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    background: #cecece;
+    color: white;
+    border-radius: 15px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.options .option-items .item .option-text{
+    font-size: 18px;
+    /* color: blueviolet; */
+    
+}
+/* option end */
+/* about start */
+.about-section{
+    margin: 50px 0;
+}
+.about-section .about-items-secction {
+    display: flex;
+    flex-direction: row;
+}
+.about-section .about-items-secction .about-text-title{
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about-section .about-items-secction .about-text-txt{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+/* about end */
+/* feature section start */
+.feature-section{
+    margin: 50px 0;
+}
+.feature-section .our-feature-items-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.feature-section .our-feature-items-section .feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 40px 0;
+    border-radius: 3px;
+    background: #d6d6d6;
+}
+.feature-section .our-feature-items-section .feature-item .feature-logo{
+    font-size: 30px;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+.feature-section .our-feature-items-section .feature-item .feature-text{
+    text-align: center;
+}
+.feature-section .our-feature-items-section .feature-item .feature-text .feature-inside-title{
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.feature-section .our-feature-items-section .feature-item .feature-text .feature-inside-text{
+    font-size: 16px;
+}
+/* feature section end */
+
+/* screenshot slider section start */
+.screenshot-section{
+    margin: 50px 0;
+}
+.screenshot-section .screenshot-section-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.screenshot-section .screenshot-section-items .slider-items{
+    /* height: 550px; */
+}
+.screenshot-section .screenshot-section-items .image{
+    margin: 0 20px;
+    /* height: 100%; */
+}
+.slick-dots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02, #slick-slide-control03{
+    border-radius: 50%;
+    background: black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2px;
+}
+/* screenshot slider section end */
